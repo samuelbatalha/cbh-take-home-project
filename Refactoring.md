@@ -38,4 +38,4 @@ exports.deterministicPartitionKey = (event) => {
 };
 ```
 # 3.
-I've chosen to remove the blank attribution to 'candidate' by adding a default value to it (TRIVIAL_PARTITION_KEY), so it starts with '0'. After that I was not happy with the quantity of if/else statements in the code so I decided to use an 'else if' to group the conditions/expressions. Then I transformed the last 2 conditions into ternary operators to reduce de file length, and then I added comment to explain the ternary operators to help on understanding it.
+ - I've chosen to remove the blank attribution to 'candidate' by adding a default value to it (TRIVIAL_PARTITION_KEY), so it starts with '0'. After that I was not happy with the quantity of if/else statements in the code so I decided to use an 'else if' to group the conditions/expressions. Then I transformed the last 2 conditions into ternary operators to reduce de file length, and then I added comment to explain the ternary operators to help on understanding it.
